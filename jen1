@@ -1,0 +1,15 @@
+How To Create AWS EC2 Instance With Terraform
+
+1. Get AMI ID need to create 
+
+2. Write terraform main.tf and provider.tf
+  
+3.Run cerate EC2 instance with terraform
+ 
+commands:
+        > terraform init : now terraform wiil be initialized
+        > now see the hidden files you will find a terraform directory
+        > terrafprm plan : Read config fike and compare local state file
+ 	> terraform apply : now terraform.tf state file will be created which consists of all the metadata
+        > terraform destroy : Kill the instance
+       
